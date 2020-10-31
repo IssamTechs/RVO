@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Commands\Handlers\" />
+    <Folder Include="Events\External\" />
+    <Folder Include="DTO\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Services\" />
+    <Folder Include="Queries\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RVO.Services.Appointments.Core\RVO.Services.Appointments.Core.csproj" />
+  </ItemGroup>
+
+</Project>
