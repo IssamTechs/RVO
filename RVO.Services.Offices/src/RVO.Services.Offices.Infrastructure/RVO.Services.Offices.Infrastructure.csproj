@@ -13,7 +13,6 @@
     <ProjectReference Include="..\RVO.Services.Offices.Application\RVO.Services.Offices.Application.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Data\Config\" />
     <Folder Include="Exceptions\" />
     <Folder Include="Services\" />
   </ItemGroup>
