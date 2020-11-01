@@ -7,13 +7,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F3611107-63E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{941D7704-90B2-4CFE-8F89-5E3CF198C8C3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RVO.Services.Employees.Core", "src\RVO.Services.Employees.Core\RVO.Services.Employees.Core.csproj", "{50AEF3A2-2F6E-4C77-BF9D-E07B10651016}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RVO.Services.Offices.Core", "src\RVO.Services.Offices.Core\RVO.Services.Offices.Core.csproj", "{50AEF3A2-2F6E-4C77-BF9D-E07B10651016}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RVO.Services.Employees.Application", "src\RVO.Services.Employees.Application\RVO.Services.Employees.Application.csproj", "{AB2908CE-FE17-4794-99ED-06DD5072C4D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RVO.Services.Offices.Application", "src\RVO.Services.Offices.Application\RVO.Services.Offices.Application.csproj", "{AB2908CE-FE17-4794-99ED-06DD5072C4D6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RVO.Services.Employees.Infrastructure", "src\RVO.Services.Employees.Infrastructure\RVO.Services.Employees.Infrastructure.csproj", "{0B99A596-82A6-415E-B698-463321D05278}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RVO.Services.Offices.Infrastructure", "src\RVO.Services.Offices.Infrastructure\RVO.Services.Offices.Infrastructure.csproj", "{0B99A596-82A6-415E-B698-463321D05278}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RVO.Services.Employees.Api", "src\RVO.Services.Employees.Api\RVO.Services.Employees.Api.csproj", "{B6DCBE07-0EA5-491B-A230-3A6A43D300E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RVO.Services.Offices.Api", "src\RVO.Services.Offices.Api\RVO.Services.Offices.Api.csproj", "{B6DCBE07-0EA5-491B-A230-3A6A43D300E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
