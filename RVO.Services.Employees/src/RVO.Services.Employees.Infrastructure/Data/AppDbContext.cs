@@ -1,4 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using RVO.Services.Employees.Core.Entities;
+using System.Reflection;
 
 namespace RVO.Services.Employees.Infrastructure.Data
 {
@@ -11,10 +13,12 @@ namespace RVO.Services.Employees.Infrastructure.Data
         {
         }
 
+        public DbSet<Employee> Employees { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-
+        
+            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
         }
     }
 }

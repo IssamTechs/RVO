@@ -10,7 +10,7 @@ using RVO.Services.Offices.Infrastructure.Data;
 namespace RVO.Services.Offices.Infrastructure.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20201031135135_Initial")]
+    [Migration("20201101012442_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

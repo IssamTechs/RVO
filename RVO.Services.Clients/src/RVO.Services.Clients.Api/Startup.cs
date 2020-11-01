@@ -12,6 +12,7 @@ using Microsoft.EntityFrameworkCore.SqlServer;
 using RVO.Services.Clients.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using RVO.Services.Clients.Infrastructure;
 
 namespace RVO.Services.Clients.Api
 {
@@ -41,7 +42,7 @@ namespace RVO.Services.Clients.Api
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
                 c.EnableAnnotations();
             });
-
+            services.AddInfrastructure();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -55,8 +56,12 @@ namespace RVO.Services.Clients.Api
             app.UseRouting();
 
             app.UseCors(MyAllowSpecificOrigins);
-
             app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint($"/swagger/v1/swagger.json", "My API");
+                c.RoutePrefix = string.Empty;
+            });
 
             app.UseEndpoints(endpoints =>
             {
